@@ -6,17 +6,18 @@ for (let i = 0; i < dwarves.length; i++){
 }
 return x
 }
-
+//1. Doc 2. Dopey 3. Bashful 4. Grumpy
 
 function summonCaptainPlanet(planeteerCalls){
 
 for (let i = 0; i < planeteerCalls.length; i++) {
-  planeteerCalls [i] = planeteerCalls[i].toUpperCase() + '!'
+  planeteerCalls[i]  = planeteerCalls[i].toUpperCase() + '!'
 }
 
 return planeteerCalls
 
 }
+//["EARTH!", "WIND!", "FIRE!", "WATER!", "HEART!"]
 
 function longPlaneteerCalls(words) {
 
@@ -31,7 +32,7 @@ if (words.length > 4){
 function findTheCheese (foods) {
 
 var cheeses = ["cheddar", "gouda", "camembert"]
-//var c = foods.include(cheeses)
+
 for(let i = 0; i < foods.length; i++){
   for (let k = 0; k < cheeses.length; k++){
     if(cheeses[k] === foods[i]){
